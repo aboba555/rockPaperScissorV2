@@ -1,0 +1,36 @@
+body {
+    font-family: Arial, sans-serif;
+    max-width: 600px;
+    margin: 40px auto;
+    padding: 0 16px;
+    text-align: center;
+}
+
+button {
+    padding: 10px 16px;
+    margin: 4px;
+    font-size: 16px;
+    cursor: pointer;
+}
+
+#vysledek {
+    font-size: 20px;
+    font-weight: bold;
+}
+
+#historie {
+    display: inline-block;
+    text-align: left;
+}
+
+.vyhra {
+    color: green;
+}
+
+.prohra {
+    color: red;
+}
+
+.remiza {
+    color: gray;
+}

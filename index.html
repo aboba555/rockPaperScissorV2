@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="cs">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Kámen, nůžky, papír, studna</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <h1>Kámen, nůžky, papír, studna</h1>
+
+    <p>
+        <label><input type="checkbox" id="chytry" checked> Učící se počítač</label>
+        <label><input type="checkbox" id="casovacZapnuty"> Časovač</label>
+    </p>
+
+    <p>Ty: <b id="zivotyHrace"></b> životů | Počítač: <b id="zivotyPocitace"></b> životů</p>
+
+    <div id="tlacitka">
+        <button data-figura="kamen">Kámen</button>
+        <button data-figura="nuzky">Nůžky</button>
+        <button data-figura="papir">Papír</button>
+        <button data-figura="studna">Studna</button>
+    </div>
+
+    <p><button id="stit">Štít</button></p>
+
+    <p id="cas"></p>
+    <p id="vysledek">Vyber si figuru</p>
+    <p><button id="znovu" hidden>Hrát znovu</button></p>
+
+    <p id="statistiky"></p>
+    <ol id="historie"></ol>
+
+    <script src="script.js"></script>
+</body>
+</html>
